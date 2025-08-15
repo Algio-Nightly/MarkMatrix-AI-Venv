@@ -4,6 +4,12 @@
 - MarkMatrix AI is a Basic Terminal Based Automation which takes  Questions, Answers and Max Marks as an Input in the form of a `.csv` file.
 - It Analyses the file using Google Gemini given a fixed prompt.
 - After Analyzing the Output is stored in a user-defined file name in the Responses.csv folder
+- The Gemini Output gives the following fields by analyzing the file
+	- Obtained Marks out of Max Marks Specified
+	- Reasoning for Obtained Marks
+	- Areas of Improvement
+
+
 
 
 ## Instructions:
