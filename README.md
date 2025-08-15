@@ -1,13 +1,36 @@
 # MarkMatrixAI V1.0
 
 ## Overview:
-- MarkMatrix AI is a Basic Terminal Based Automation which takes  Questions, Answers and Max Marks as an Input in the form of a `.csv` file.
-- It Analyses the file using Google Gemini given a fixed prompt.
-- After Analyzing the Output is stored in a user-defined file name in the Responses.csv folder
-- The Gemini Output gives the following fields by analyzing the file
-	- Obtained Marks out of Max Marks Specified
-	- Reasoning for Obtained Marks
-	- Areas of Improvement
+MarkMatrix AI is a **terminal-based automation tool** that evaluates answers using the **Google Gemini API**.  
+It takes **questions, answers, and maximum marks** from a `.csv` file, analyzes them with a fixed AI prompt, and saves the evaluation results in the **`Responses`** folder.  
+
+---
+
+## ✨ Features
+- ✅ Automated answer evaluation  
+- ✅ AI-powered marking with Google Gemini  
+- ✅ CSV input and structured output  
+- ✅ Includes reasoning and improvement suggestions  
+- ✅ Simple retry mechanism for failed AI responses  
+
+---
+
+## 📌 Output Fields
+After analysis, Gemini provides:
+- **Obtained Marks** (out of the specified maximum marks)  
+- **Reasoning** for the awarded marks  
+- **Areas for Improvement**  
+
+---
+
+## 📂 Project Structure
+MarkMatrix-AI/
+│── main.py
+│── requirements.txt
+│── .env.example
+│── QuestionList.csv
+│── Responses/ # Output folder
+└── .gitignore
 
 
 
